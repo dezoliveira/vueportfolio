@@ -55,8 +55,111 @@
                   </v-btn>
                 </div>
               </v-col>
+              <v-col cols="12" class="mt-10">
+                <div class="child1">
+                  <h1 class="red--text text--darken-4 mt-4 number">10</h1>
+                  <h3 class="white--text mt-4">Years Experience</h3>
+                </div>
+                <div class="child2 mRight">
+                  <v-row>
+                    <v-col cols="12" class="childcol">
+                      <div class="child2 mButton padding bgColor1">
+                        <h1 class="red--text text-darken">60+</h1>
+                        <p class="grey--text">Clients</p>
+                      </div>
+                    </v-col>
+                    <v-col cols="12" class="childcol">
+                      <div class="child2 padding bgColor1">
+                        <h1 class="red--text text-darken">122+</h1>
+                        <p class="grey--text">Completed</p>
+                      </div>
+                    </v-col>
+                  </v-row>
+                </div>
+                <div class="child2">
+                  <v-row>
+                    <v-col cols="12" class="childcol">
+                      <div class="child2 mButton padding bgColor1">
+                        <h1 class="red--text text-darken">08</h1>
+                        <p class="grey--text">Years Experience</p>
+                      </div>
+                    </v-col>
+                    <v-col cols="12" class="childcol">
+                      <div class="child2 padding bgColor1">
+                        <h1 class="red--text text-darken">10</h1>
+                        <p class="grey--text">Achievements</p>
+                      </div>
+                    </v-col>
+                  </v-row>
+                </div>
+              </v-col>
             </v-row>
           </div>
+        </v-col>
+        <v-col md="3" offset-md="3" id="about">
+          <h4 class="white--text">FEATURED PROJECTS</h4>
+          <p class="grey--text">
+            Lorem ipsum dolor, Lorem ipsum dolor
+          </p>
+        </v-col>
+        <v-col md="3" class="text-end">
+          <v-btn tile color="#A7121D" dark>View All</v-btn>
+        </v-col>
+        <v-col md="3" offset-md="3">
+          <v-card class="pa-2 py-12" outlined title height="250px" color="#1e1e1e">
+            <v-img src="" contain></v-img>
+          </v-card>
+        </v-col>
+        <v-col md="3">
+          <v-card class="pa-2 py-12" outlined title height="250px" color="#1e1e1e">
+            <v-img src="" contain></v-img>
+          </v-card>
+        </v-col>
+        <v-col md="3" offset-md="3">
+          <v-btn color="white" dark text class="ml-n4">
+            The Vintage
+          </v-btn><br />
+          <v-btn color="#A7121D" dark text class="ml-n4">
+            know more
+            <v-icon right>mdi-arrow-right</v-icon>
+          </v-btn>
+        </v-col>
+        <v-col md="3">
+          <v-btn color="white" dark text class="ml-n4">
+            Foodasa
+          </v-btn><br />
+          <v-btn color="#A7121D" dark text class="ml-n4">
+            know more
+            <v-icon right>mdi-arrow-right</v-icon>
+          </v-btn>
+        </v-col>
+        <v-col md="3" offset-md="3">
+          <v-card class="pa-2 py-12" outlined title height="250px" color="#1e1e1e">
+            <v-img src="" contain></v-img>
+          </v-card>
+        </v-col>
+        <v-col md="3">
+          <v-card class="pa-2 py-12" outlined title height="250px" color="#1e1e1e">
+            <v-img src="" contain></v-img>
+          </v-card>
+        </v-col>
+        <v-col md="3" offset-md="3">
+          <v-btn color="white" dark text class="ml-n4">
+            AAE IdeaPro
+          </v-btn><br />
+          <v-btn color="#A7121D" dark text class="ml-n4">
+            know more
+            <v-icon right>mdi-arrow-right</v-icon>
+          </v-btn>
+        </v-col>
+        <v-col md="3">
+          <v-btn color="white" dark text class="ml-n4">
+            Mozaik
+          </v-btn><br />
+          <v-btn color="#A7121D" dark text class="ml-n4">
+            know more
+            <v-icon right>mdi-arrow-right</v-icon>
+          </v-btn>
         </v-col>
       </v-row>
     </v-container>
